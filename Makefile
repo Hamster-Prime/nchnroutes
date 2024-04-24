@@ -5,5 +5,5 @@ produce:
 	python3 produce.py
 	mv routes4.conf /etc/bird/routes4.conf
 	# sudo mv routes6.conf /etc/bird/routes6.conf
-	birdc configure
+	birdc c
 	# sudo birdc6 configure
