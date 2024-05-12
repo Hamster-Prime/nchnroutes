@@ -4,6 +4,6 @@ produce:
 	curl -o china_ip_list.txt https://raw.githubusercontent.com/17mon/china_ip_list/master/china_ip_list.txt
 	python3 produce.py
 	mv routes4.conf /etc/bird/routes4.conf
-	# sudo mv routes6.conf /etc/bird/routes6.conf
+	mv routes6.conf /etc/bird/routes6.conf
 	birdc c
-	# sudo birdc6 configure
+	birdc6 c
